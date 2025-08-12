@@ -3,11 +3,12 @@
 
 # Draw It or Lose It - Software Design Document
 
-Author  
-Bradley Saucier  
+**Author**  
+Bradley Saucier, SMSgt, USAF (Ret.)  
 B.S. Candidate, Computer Science (STEM Project Management), Southern New Hampshire University  
 B.A. Economics, Columbia University  
 A.A.S., Community College of the Air Force
+
 
 - **Purpose**: This repository contains the software design document (SDD) for "Draw It or Lose It," a project for CS 230. It serves as the architectural blueprint and strategic recommendation for evolving the client's software from a single-platform application to a scalable, web-based service.
 
@@ -50,28 +51,29 @@ This section serves as a debrief of the design process, fulfilling the requireme
 
 **1. Client and Requirements Summary**
 
-- **Client:** The Gaming Room.  
-- **Software Requirement:** The client required a software design to evolve their existing single-platform Android game, "Draw It or Lose It," into a scalable, secure, and cross-platform web-based service. The primary objective was to maximize market reach by ensuring accessibility on any device with a modern web browser.
+Supported unit: The Gaming Room.  
+Mission objective: Expand Draw It or Lose It from a single-platform Android game into a cross-platform, web-based application capable of running on any modern browser and device. The system must support multiple teams and players with unique identifiers, operate in real time, enforce a single authoritative game instance in memory, and maintain speed, security, and consistency across all operating environments.
 
 **2. Strengths in Documentation Development**
 
-##TODO
+I approached the SDD as an operational order. The Recommendations section was built with precision and clarity, leaving no ambiguity in execution. The architecture plan specified a containerized Java backend on Ubuntu Server 24.04 LTS, backed by PostgreSQL for structured data and MinIO for object storage. The communication plan separated control traffic (REST) from real-time updates (WebSockets). Security, scaling, and memory management were detailed to prevent mission drift. Like a mission brief to a pilot, the document provides both the strategic intent and the tactical details required for flawless execution.
 
 **3. The Utility of the Design Document Process**
 
-##TODO
+The design document served as the equivalent of a pre-mission plan. It forced deliberate consideration of constraints, dependencies, and contingencies before execution. By mapping out architecture, data flows, and security posture in advance, the risk of mid-operation surprises was reduced. Just as in operational planning, every line in the document was about controlling the battlespace before contact - allocating resources, defining comms, and ensuring synchronization before code was written.
 
 **4. Proposed Revisions**
 
-##TODO
+The System Architecture View section needs reinforcement. It currently functions as a high-level foundation; in future iterations, I would add detailed diagrams and flow charts to illustrate inter-component communication under various operational scenarios. This would give the development team an even clearer picture of the timing, dependencies, and control paths.
 
 **5. Translating User Needs into Design**
 
-##TODO
+The Gaming Room’s intent for increased market reach and platform flexibility was translated into a PWA deployment model, ensuring broad accessibility without sacrificing performance or security. Requirements like “unique names” became database-level constraints; “real-time play” translated to a WebSocket layer; “security” resulted in end-to-end TLS, short-lived tokens, and OWASP ASVS Level 2 alignment. This is no different from taking a ground commander’s intent and turning it into precise coordinates, ingress/egress plans, and weapons release parameters - failure to translate intent correctly equals mission failure.
 
 **6. Design Approach and Future Strategy**
 
-##TODO
+My approach followed a structured, top-down methodology: executive summary, requirements, constraints, architecture, domain model, evaluation, and recommendations. This mirrors the formal military planning process - establish the objective, assess the battlespace, plan the maneuver, and define sustainment. For future operations, I would integrate rapid prototyping of high-risk components early in the cycle, similar to a ROC drill, to validate design assumptions and catch integration risks before committing full resources.
+
 ---
 
 ### Deliverables and Directory Layout
