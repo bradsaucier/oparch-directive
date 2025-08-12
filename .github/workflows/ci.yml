@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Verify design document
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check PDF exists and size is sane
+        run: |
+          FILE="documentation/CS230_Software_Design_Document_TheGamingRoom.pdf"
+          if [ ! -f "$FILE" ]; then
+            echo "::error::Design document not found at $FILE"
+            exit 1
+          fi
+          SIZE=$(stat -c%s "$FILE")
+          echo "Artifact size: $SIZE bytes"
+          if [ "$SIZE" -lt 20000 ]; then
+            echo "::error::PDF is unusually small. Validate export before submission."
+            exit 1
+          fi
