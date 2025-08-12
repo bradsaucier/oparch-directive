@@ -1,7 +1,7 @@
 [![CI](https://github.com/bradsaucier/OpArch-Directive/actions/workflows/ci.yml/badge.svg)](https://github.com/bradsaucier/OpArch-Directive/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-# Draw It or Lose It - Software Design Document
+# Draw It or Lose It: A Strategic Design Directive
 
 **Author**  
 Bradley Saucier, SMSgt, USAF (Ret.)  
