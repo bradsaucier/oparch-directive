@@ -18,3 +18,14 @@ A.A.S., Community College of the Air Force
 The client, The Gaming Room, required a strategic plan to expand their existing Android game, "Draw It or Lose It," into a web-based, multi-platform application. The primary objective was to maximize market reach and user engagement by making the game accessible across various devices and operating systems without compromising performance or security.
 
 ---
+
+### Academic Integrity and Citation Policy
+
+All work in this repository is my own, completed in accordance with the Southern New Hampshire University Academic Integrity Policy.  
+All external sources, standards, and tools that informed the design are cited in the main PDF document and listed in `REFERENCES.md`.
+
+---
+
+### License and Reuse
+
+This project is licensed under the MIT License. See the `LICENSE` file for full details. You are free to use, share, and adapt the content as long as you provide attribution.
