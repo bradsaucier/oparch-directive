@@ -19,6 +19,16 @@ The client, The Gaming Room, required a strategic plan to expand their existing 
 
 ---
 
+### Deliverables and Directory Layout
+
+- `README.md`: This document.
+- `documentation/CS230_Software_Design_Document_TheGamingRoom.pdf`: The primary deliverable containing the full software design and recommendations.
+- `.github/`: Contains the CI workflow.
+- `LICENSE`: MIT License governing the reuse of this repository's content.
+- `REFERENCES.md`: A list of all external standards, specifications, and tools cited in this project.
+
+---
+
 ### Academic Integrity and Citation Policy
 
 All work in this repository is my own, completed in accordance with the Southern New Hampshire University Academic Integrity Policy.  
