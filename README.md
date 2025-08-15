@@ -12,14 +12,6 @@ B.S. Candidate, Computer Science (STEM Project Management), Southern New Hampshi
 B.A. Economics, Columbia University  
 A.A.S., Strategic Operations Management, Community College of the Air Force  
 
-# Draw It or Lose It: A Strategic Design Directive
-
-**Author**  
-Bradley Saucier, SMSgt, USAF (Ret.) - Retired Combat Controller  
-B.S. Candidate, Computer Science (STEM Project Management), Southern New Hampshire University  
-B.A. Economics, Columbia University  
-A.A.S., Strategic Operations Management, Community College of the Air Force  
-
 ---
 
 ### Mission Brief
