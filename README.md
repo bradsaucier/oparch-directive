@@ -14,6 +14,29 @@ A.A.S., Strategic Operations Management, Community College of the Air Force
 
 ---
 
+## Table of Contents
+1. [Mission Brief](#mission-brief)  
+2. [Purpose](#purpose)  
+3. [Mission Context](#mission-context)  
+4. [Mission Plan](#mission-plan)  
+   - [Situation](#situation)  
+   - [Mission](#mission)  
+   - [Execution](#execution)  
+   - [Sustainment](#sustainment)  
+   - [Command and Signal](#command-and-signal)  
+5. [After-Action Report and Reflection](#after-action-report-and-reflection)  
+   - [Client and Requirements Summary](#1-client-and-requirements-summary)  
+   - [Strengths in Documentation Development](#2-strengths-in-documentation-development)  
+   - [The Utility of the Design Document Process](#3-the-utility-of-the-design-document-process)  
+   - [Proposed Revisions](#4-proposed-revisions)  
+   - [Translating User Needs into Design](#5-translating-user-needs-into-design)  
+   - [Design Approach and Future Strategy](#6-design-approach-and-future-strategy)  
+6. [Deliverables and Directory Layout](#deliverables-and-directory-layout)  
+7. [Academic Integrity and Citation Policy](#academic-integrity-and-citation-policy)  
+8. [License and Reuse](#license-and-reuse)  
+
+---
+
 ### Mission Brief
 
 This repository is the software design directive for *Draw It or Lose It*. It was written with the same mindset used to plan real-world operations: precision, clarity, and no room for ambiguity.  
@@ -35,8 +58,6 @@ The client, The Gaming Room, required a strategic plan to expand their existing 
 ---
 
 ### Mission Plan
-
-This project can be understood through the five-paragraph order format:
 
 - **1. Situation:** The client's asset is confined to the Android ecosystem, limiting its operational reach. Competitors occupy a wider battlespace across web and iOS platforms. The objective is to break out from the current area of operations.
 
@@ -61,49 +82,41 @@ This project can be understood through the five-paragraph order format:
 
 ### After-Action Report and Reflection
 
-This section serves as a debrief of the design process, fulfilling the requirements for the CS 230 Module Eight Journal.
-
-**1. Client and Requirements Summary**
-
+**1. Client and Requirements Summary**  
 Supported unit: The Gaming Room.  
 Mission objective: Expand Draw It or Lose It from a single-platform Android game into a cross-platform, web-based application capable of running on any modern browser and device. The system must support multiple teams and players with unique identifiers, operate in real time, enforce a single authoritative game instance in memory, and maintain speed, security, and consistency across all operating environments.
 
-**2. Strengths in Documentation Development**
-
+**2. Strengths in Documentation Development**  
 I approached the SDD as an operational order. The Recommendations section was built with precision and clarity, leaving no ambiguity in execution. The architecture plan specified a containerized Java backend on Ubuntu Server 24.04 LTS, backed by PostgreSQL for structured data and MinIO for object storage. The communication plan separated control traffic (REST) from real-time updates (WebSockets). Security, scaling, and memory management were detailed to prevent mission drift. Like a mission brief to a pilot, the document provides both the strategic intent and the tactical details required for flawless execution.
 
-**3. The Utility of the Design Document Process**
-
+**3. The Utility of the Design Document Process**  
 The design document served as the equivalent of a pre-mission plan. It forced deliberate consideration of constraints, dependencies, and contingencies before execution. By mapping out architecture, data flows, and security posture in advance, the risk of mid-operation surprises was reduced. Just as in operational planning, every line in the document was about controlling the battlespace before contact - allocating resources, defining comms, and ensuring synchronization before code was written.
 
-**4. Proposed Revisions**
-
+**4. Proposed Revisions**  
 The System Architecture View section needs reinforcement. It currently functions as a high-level foundation; in future iterations, I would add detailed diagrams and flow charts to illustrate inter-component communication under various operational scenarios. This would give the development team an even clearer picture of the timing, dependencies, and control paths.
 
-**5. Translating User Needs into Design**
-
+**5. Translating User Needs into Design**  
 The Gaming Room’s intent for increased market reach and platform flexibility was translated into a PWA deployment model, ensuring broad accessibility without sacrificing performance or security. Requirements like “unique names” became database-level constraints; “real-time play” translated to a WebSocket layer; “security” resulted in end-to-end TLS, short-lived tokens, and OWASP ASVS Level 2 alignment. This is no different from taking a ground commander’s intent and turning it into precise coordinates, ingress/egress plans, and weapons release parameters - failure to translate intent correctly equals mission failure.
 
-**6. Design Approach and Future Strategy**
-
+**6. Design Approach and Future Strategy**  
 My approach followed a structured, top-down methodology: executive summary, requirements, constraints, architecture, domain model, evaluation, and recommendations. This mirrors the formal military planning process - establish the objective, assess the battlespace, plan the maneuver, and define sustainment. For future operations, I would integrate rapid prototyping of high-risk components early in the cycle, similar to a ROC drill, to validate design assumptions and catch integration risks before committing full resources.
 
 ---
 
 ### Deliverables and Directory Layout
 
-- `README.md`: This document.
-- `documentation/CS230_Software_Design_Document_TheGamingRoom.pdf`: The primary deliverable containing the full software design and recommendations.
-- `.github/`: Contains the CI workflow.
-- `LICENSE`: MIT License governing the reuse of this repository's content.
-- `REFERENCES.md`: A list of all external standards, specifications, and tools cited in this project.
+- `README.md`: This document.  
+- `documentation/CS230_Software_Design_Document_TheGamingRoom.pdf`: The primary deliverable containing the full software design and recommendations.  
+- `.github/`: Contains the CI workflow.  
+- `LICENSE`: MIT License governing the reuse of this repository's content.  
+- `REFERENCES.md`: A list of all external standards, specifications, and tools cited in this project.  
 
 ---
 
 ### Academic Integrity and Citation Policy
 
 All work in this repository is my own, completed in accordance with the Southern New Hampshire University Academic Integrity Policy.  
-All external sources, standards, and tools that informed the design are cited in the main PDF document and listed in `REFERENCES.md`.
+All external sources, standards, and tools that informed the design are cited in the main PDF document and listed in `REFERENCES.md`.  
 
 ---
 
