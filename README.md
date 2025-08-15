@@ -1,5 +1,16 @@
 [![CI](https://github.com/bradsaucier/OpArch-Directive/actions/workflows/ci.yml/badge.svg)](https://github.com/bradsaucier/OpArch-Directive/actions/workflows/ci.yml)
+[![Documentation](https://img.shields.io/badge/docs-pdf-blue.svg)](documentation/CS230_Software_Design_Document_TheGamingRoom.pdf)
+[![References](https://img.shields.io/badge/references-md-lightgrey.svg)](REFERENCES.md)
+[![Citation](https://img.shields.io/badge/cite-this-orange.svg)](CITATION.cff)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+# Draw It or Lose It: A Strategic Design Directive
+
+**Author**  
+Bradley Saucier, SMSgt, USAF (Ret.) - Retired Combat Controller  
+B.S. Candidate, Computer Science (STEM Project Management), Southern New Hampshire University  
+B.A. Economics, Columbia University  
+A.A.S., Strategic Operations Management, Community College of the Air Force  
 
 # Draw It or Lose It: A Strategic Design Directive
 
