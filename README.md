@@ -4,13 +4,24 @@
 # Draw It or Lose It: A Strategic Design Directive
 
 **Author**  
-Bradley Saucier, SMSgt, USAF (Ret.)  
+Bradley Saucier, SMSgt, USAF (Ret.) - Retired Combat Controller  
 B.S. Candidate, Computer Science (STEM Project Management), Southern New Hampshire University  
 B.A. Economics, Columbia University  
-A.A.S., Community College of the Air Force
+A.A.S., Strategic Operations Management, Community College of the Air Force  
 
+---
 
-- **Purpose**: This repository contains the software design document (SDD) for "Draw It or Lose It," a project for CS 230. It serves as the architectural blueprint and strategic recommendation for evolving the client's software from a single-platform application to a scalable, web-based service.
+### Mission Brief
+
+This repository is the software design directive for *Draw It or Lose It*. It was written with the same mindset used to plan real-world operations: precision, clarity, and no room for ambiguity.  
+
+The mission: expand The Gaming Room's Android-only title into a scalable, cross-platform deployment that reaches web, desktop, and mobile users while maintaining speed, synchronization, and security.  
+
+---
+
+### Purpose
+
+The contents of this repository serve as the architectural blueprint and strategic recommendation for transforming a single-platform application into a modern, containerized, multi-tier system. The directive is structured like an operational order - situation, mission, execution, sustainment, and command and signal - so developers and decision-makers can immediately understand both the intent and the plan of action.
 
 ---
 
