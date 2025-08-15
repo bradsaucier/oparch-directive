@@ -3,7 +3,7 @@ message: "If you use this software design document in your work, please cite it 
 authors:
   - family-names: "Saucier"
     given-names: "Bradley"
-title: "Draw It or Lose It: Software Design Document"
-version: 3.0
-date-released: 2025-08-11
+title: "Draw It or Lose It: A Strategic Design Directive"
+version: 1.0
+date-released: 2025-08-12
 url: "https://github.com/bradsaucier/OpArch-Directive"
