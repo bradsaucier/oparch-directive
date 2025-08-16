@@ -41,6 +41,8 @@ A.A.S., Strategic Operations Management, Community College of the Air Force
 
 This repository is the software design directive for *Draw It or Lose It*. It was written with the same mindset used to plan real-world operations: precision, clarity, and no room for ambiguity.  
 
+To orient the reader, this document is intentionally structured like a military operational order. The design philosophy behind it is rooted in deliberate planning, tactical clarity, and execution without ambiguity.  
+
 The mission: expand The Gaming Room's Android-only title into a scalable, cross-platform deployment that reaches web, desktop, and mobile users while maintaining speed, synchronization, and security.  
 
 ---
@@ -96,6 +98,8 @@ The design document served as the equivalent of a pre-mission plan. It forced de
 The System Architecture View section needs reinforcement. It currently functions as a high-level foundation; in future iterations, I would add detailed diagrams and flow charts to illustrate inter-component communication under various operational scenarios. This would give the development team an even clearer picture of the timing, dependencies, and control paths.
 
 **5. Translating User Needs into Design**  
+This translation is the most critical phase of design, as software that is technically perfect but fails to solve the user's core problem offers no value.  
+
 The Gaming Room’s intent for increased market reach and platform flexibility was translated into a PWA deployment model, ensuring broad accessibility without sacrificing performance or security. Requirements like “unique names” became database-level constraints; “real-time play” translated to a WebSocket layer; “security” resulted in end-to-end TLS, short-lived tokens, and OWASP ASVS Level 2 alignment. This is no different from taking a ground commander’s intent and turning it into precise coordinates, ingress/egress plans, and weapons release parameters - failure to translate intent correctly equals mission failure.
 
 **6. Design Approach and Future Strategy**  
