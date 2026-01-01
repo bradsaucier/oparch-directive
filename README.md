@@ -54,7 +54,7 @@ flowchart TB
 
 | Field | Data |
 |---|---|
-| Author | Bradley Saucier, SMSgt, USAF (Ret.) - Retired Combat Controller |
+| Author | Bradley Saucier, SMSgt, USAF (Ret.) |
 | Program | B.S. Candidate, Computer Science (STEM Project Management), Southern New Hampshire University |
 | Prior education | B.A. Economics, Columbia University; A.A.S., Strategic Operations Management, Community College of the Air Force |
 | Repository purpose | Provide the architectural blueprint and rationale for the SDD, plus the supporting citation trail |
