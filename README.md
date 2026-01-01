@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Draw It or Lose It</h1>
-  <p><strong>Strategic Design Directive (SDD)</strong> - Design-first mission package for CS-230 (Software Design)</p>
+  <p><strong>Strategic Design Directive (SDD)</strong> - Design-first mission package for CS-230</p>
 
   <p>
     <a href="./documentation/CS230_Software_Design_Document_TheGamingRoom.pdf"><img alt="Primary Deliverable PDF" src="https://img.shields.io/badge/PRIMARY_DELIVERABLE-PDF-0056D2?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" /></a>
